@@ -226,6 +226,9 @@ type SelectMenu struct {
 
 	// NOTE: Can only be used in SelectMenu with Channel menu type.
 	ChannelTypes []ChannelType `json:"channel_types,omitempty"`
+	// Returned selected menu options values.
+
+	Values []string `json:"values,omitempty"`
 }
 
 // Type is a method to get the type of a component.
